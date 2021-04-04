@@ -1,0 +1,89 @@
+.widget.post,.widget.detail-post
+{
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.widget.post .post-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+.widget.post .publish-date
+{
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #a69e9e;
+    padding: 6px 0 5px 0;
+}
+.widget.post .post-desc
+{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #777777;
+    text-align: justify;
+}
+/* .widget-content
+{
+    padding-left: 7px;
+} */
+.post-item:nth-child(1)
+{
+    padding-top: 0;
+    border-top: none;
+}
+.post-item
+{
+    border-top: 1px solid #cecece;
+    padding-top: 22px;
+    padding-bottom: 18px;
+}
+.widget.detail-post p
+{
+    font-size: 14px;
+    line-height: 25px;
+    color: #666666;
+    padding:16px 0;
+}
+.widget.detail-post .widget-title h1
+{
+    font-size: 28px;
+    color: black;
+    font-weight: 500;
+}
+.widget.same-post
+{
+    padding-top: 20px;
+}
+.widget.same-post .widget-title
+{
+    font-size: 23px;
+    line-height: 24px;
+    color: #333333;
+    border-bottom: 2px solid #e10000;
+    display: inline-block;
+    margin: 0;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+}
+.widget.same-post .widget-head
+{
+    border-bottom: 1px solid #dddbdb;
+    margin-bottom: 10px;
+}
+#list-same-post
+{
+    padding-top: 40px;
+}
+#list-same-post li .post-name
+{
+    padding:20px 0 10px 0;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}

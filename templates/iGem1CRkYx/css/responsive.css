@@ -1,0 +1,225 @@
+/* Ipad ngang (1024 x 768) */
+
+@media screen and (max-width: 1200px){
+    
+    #header .logo {
+        padding: 35.5px 0;
+        transition: 0.4s;
+    }
+}
+@media screen and (min-width: 1200px){
+    #wrapper .container
+    {
+        max-width: 1170px;
+    }
+    
+}
+@media screen and (max-width: 992px){
+    #form-search {
+        padding: 16.5px 0;
+    }
+    .btn-search-main {
+        display: none;
+    }
+    .close
+    {
+        right: 0;
+    }
+    #header .container
+    {
+        max-width: 100%;
+    }
+    .icon-menu-respon
+    {
+        font-size: 25px;
+        font-weight: bold;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        color: black;
+        cursor: pointer;
+    }
+    #header .logo {
+        width: 20%;
+        padding: 13px 0;
+    }
+    .action {
+        padding: 17px 0;
+    }
+    #menu-respon .respon-arrow
+    {
+        position: absolute;
+        right: 0px;
+        top: 0;
+        padding: 15px;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    
+    #wp-menu-respon li 
+    {
+        border-top: 1px dashed #8683839c;
+    }
+    #menu-respon .sub-menu li a
+    {
+        margin-left: 18px;
+    }
+    #menu-respon .sub-menu li .sub-menu li a
+    {
+        margin-left: 40px;
+    }
+    #wp-menu-respon a
+    {
+        font-size: 18px;
+        padding: 8px 0;
+        text-decoration: none;
+        color: black;
+        display: block;
+        text-transform: uppercase;
+        
+    }
+    #menu-respon .sub-menu,#wp-intro{
+        display: none;
+    }
+    #content .widget.feature {
+        padding: 30px 0;
+    }
+    .widget .wp-title {
+        padding-bottom: 20px;
+    }
+    .form-res-email .title {
+        padding-top: 50px;
+        font-size: 27px;
+    }
+    .form-res-email .sub-title {
+        padding: 20px 0 20px 0;
+    }
+    .form-res-email .form-row .btn-res {
+        
+        padding: 8px 34px 9px 34px;
+        font-size: 17px;
+    }
+    .form-res-email .form-row input[type="text"] {
+        
+        padding: 22px 15px;
+        
+        font-size: 15px;
+    }
+
+    .form-res-email .form-row {
+        padding-bottom: 60px;
+    }
+
+}
+/* Ipad dọc (768 x 1024) */
+@media screen and (max-width: 768px){
+    
+    #header .logo {
+        width: 25%;
+        padding: 13px 0;
+    }
+    
+    .footer .widget {
+        padding-top: 7px;
+    }
+    .footer .widget {
+        padding-top: 8px;
+    }
+    .widget.about
+    {
+        padding-top: 55px;
+    }
+    #content .wp-product {
+        padding: 0 5px;
+    }
+    .content-detail-product
+    {
+        padding-right: 0;
+    }
+    .footer {
+        padding:0;
+    }
+}
+@media (max-width: 576px) {
+    #home-slide .carousel-indicators {
+        visibility: visible;
+    }
+    #home-slide .carousel-indicators li
+    {
+        width: 20px;
+    }
+    #home-slide .carousel-control-prev, #home-slide .carousel-control-next {
+        display: none;
+    }
+    .detail-product .product-info .product-title
+    {
+        padding-top: 20px;
+    }
+    #feature .owl-nav button {
+        top: 40%;
+        width: 38px;
+        height: 38px;
+    }
+    #feature button.owl-next {
+        right: -17px;
+    }
+    #feature button.owl-prev {
+        left: -14px;
+    }
+    #feature .owl-nav button span {
+        font-size: 25px;
+    }
+    #header .logo {
+        width: 43%;
+        padding: 15px 0;
+    }
+    
+    .list-post .post-item .widget-content 
+    {
+        padding-top: 16px;
+    }
+    #content.content-post
+    {
+        padding-right: 0;
+    }
+}
+/* Tablet nhỏ (480 x 640) */
+@media screen and (max-width: 480px){
+    .widget.same-category .widget-content .actions button {
+        font-size: 12px;
+    }
+    .form-res-email {display: none;}
+    #header .logo {
+        width: 59%;
+        padding: 13.5px 0;
+    }
+    
+    
+    .widget .wp-title h3.title:before, .widget .wp-title h3.title:after {
+        display: none;
+    }
+    .trending-fashion.widget .item-product {
+        padding-top: 20px;
+    }
+}
+/* Iphone (480 x 640) */
+@media screen and (max-width: 375px){
+    #content .wp-product
+    {
+        max-width: 100%;
+        flex: none;
+    }
+    #header .logo {
+        width: 75%;
+        padding: 17.5px 0;
+    }
+    
+    
+    /* #trending-fashion .wp-product  */
+}
+
+/* smart phone nhỏ */
+@media screen and (max-width: 240px){
+
+}
+
+

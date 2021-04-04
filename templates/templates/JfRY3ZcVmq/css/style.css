@@ -1,0 +1,540 @@
+/* CSS HEADER  */
+body
+{
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    font-weight: 400; 
+    
+    /* regular  */
+}
+.container.wp-content
+{
+    padding-bottom: 40px;
+}
+.color-primary
+{
+    color: #8BA0D9;
+}
+.background-primary
+{
+    background: #8BA0D9;;
+}
+body p
+{
+    padding:0;
+    margin:0;
+}
+#wrapper
+{
+    overflow: hidden;
+}
+
+#wrapper img
+{
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+/* CSS HEADER  */
+#header
+{
+    border-bottom: 1px solid rgb(211, 209, 209);
+}
+#header .logo
+{
+    padding: 29px 0;
+    transition: 0.4s;
+}
+
+#main-menu
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+#main-menu li
+{
+    /* display: inline-block; */
+    float: left;
+    position: relative;
+}
+#main-menu a
+{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+#main-menu>li>a
+{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 45px 48px 45px 0;
+    transition: 0.4s;
+}
+#main-menu li:hover > a,#main-menu li:hover>.menu-arrow-right,#main-menu li:hover .menu-arrow
+{
+    color: #8BA0D9;
+}
+#main-menu .sub-menu li
+{
+    float: none;
+}
+
+#main-menu .menu-arrow
+{
+    position: absolute;
+    top: 49px;
+    right: 30px;
+}
+#main-menu .menu-arrow-right {
+    position: absolute;
+    top: 16px;
+    right: 14px;
+}
+#main-menu .sub-menu 
+{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 120%;
+    width: 165px;
+    background: white;
+    z-index: 999;
+    border:1px solid #d3c9c9;
+    transition: 0.4s;
+    visibility: hidden;
+}
+#main-menu > li >.sub-menu 
+{
+    top: 150px;
+    left: 0;
+}
+#main-menu>li:hover>.sub-menu
+{
+    left: 0 !important;
+    top: 120px;
+    opacity: 1;
+    visibility: visible;
+}
+#main-menu li:hover > .sub-menu
+{
+    opacity: 1;
+    left: 100%;
+    visibility: visible;
+}
+#main-menu .sub-menu li a
+{
+    font-size: 16px;
+    transition: 0.4s;
+    padding: 10px 0;
+    margin: 0 10px;
+    border-top: 1px dashed rgb(211, 209, 209);
+}
+#main-menu .sub-menu li:nth-child(1) a
+{
+    border-top: none;
+}
+#menu-respon li:hover > a
+{
+    color: #8BA0D9;
+}
+.action 
+{
+    padding: 40px 0;
+}
+.action .btn-search
+{
+    font-size: 22px;
+}
+.action .btn-cart
+{
+    padding-left: 30px;
+    font-size: 25px;
+}
+.action .num-order
+{
+    color: white;
+    position: absolute;
+    font-size: 16px;
+    top: 8px;
+    left: 38px;
+    font-weight: bold;
+}
+.action i
+{
+    color: black;
+}
+.btn-search-main
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#form-search {
+    padding: 40.5px 0;
+    margin: 0;
+    width: 0%;
+    transition: 0.7s;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+}
+#form-search.open
+{
+    opacity: 1;
+    visibility: visible;
+    width: 90%;
+}
+.close
+{
+    font-size: 22px;
+    cursor: pointer;
+    position: absolute;
+    right: -37px;
+    top: 0;
+    padding: 8px;
+}
+/* MENU RESPON  */
+#wp-menu-respon
+{
+    display: none;
+}
+/* END HEADER  */
+
+/* CSS CONTENT  */
+
+/* CSS SLIDER  */
+#home-slide .carousel-control-prev-icon,#home-slide .carousel-control-next-icon
+{
+    background-image: none;
+}
+#home-slide .carousel-control-prev,#home-slide .carousel-control-next
+{
+    opacity: 1;
+    width: 5%;
+}
+#home-slide .carousel-control-prev:hover i,#home-slide .carousel-control-next:hover i
+{
+    color: #8BA0D9;
+}
+#home-slide i
+{
+    color: black;
+    font-size: 30px;
+}
+#home-slide .carousel-indicators .active {
+    background-color: #8BA0D9;
+}
+#home-slide .carousel-indicators li
+{
+    background-color: black;
+}
+#home-slide .carousel-indicators {
+    /* width: 20px; */
+    visibility: hidden;
+    bottom: -12px;
+}
+/* END SLIDER  */
+/* CSS INTRO  */
+#wp-intro .item
+{
+    
+    height: 70px;
+}
+#wp-intro .item.item-1
+{
+    background: #c97278;
+}
+#wp-intro .item.item-1 i
+{
+    background: #b4666c;
+}
+#wp-intro .item.item-2
+{
+    background: #c0ab90;
+}
+#wp-intro .item.item-2 i
+{
+    background: #ac9981;
+}
+#wp-intro .item.item-3
+{
+    background: #7f8fa0;
+}
+#wp-intro .item.item-3 i
+{
+    background: #728090;
+}
+#wp-intro .name
+{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    padding: 20px 0px;
+}
+#wp-intro i
+{
+    font-size: 28px;
+    color: white;
+    display: block;
+    padding: 21px 0;
+    
+}
+/* END INTRO  */
+/* CSS FEATURE  */
+#content .widget.feature
+{
+    padding: 80px 0;
+}
+.widget .title
+{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 34px;
+    color: black;
+    display: inline-block;
+    position: relative;
+}
+.widget .wp-title
+{
+    padding-bottom: 65px;
+}
+.widget .wp-title h3.title:before,.widget .wp-title h3.title:after
+{
+    content: '';
+    height: 2px;
+    width: 30px;
+    background: #9d9d9d;
+    position: absolute;
+    top: 17px;
+    
+}
+.widget .wp-title h3.title:before
+{
+    left: -45px;
+}
+.widget .wp-title h3.title:after
+{
+    right: -45px;
+}
+.widget .item-product
+{
+    font-size: 18px;
+    border: 1px solid #9d9d9d;
+    overflow: hidden;
+    
+}
+.widget .item-product .old
+{
+    color: #6c757d;
+}
+.widget .product-title
+{
+    padding:10px 0;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.widget .item-product .rating
+{
+    padding: 10px 0 30px 0;
+    color: #FC0;
+    position: relative;
+}
+.widget .action-cart
+{
+    position: absolute;
+    padding: 10px 0 20px 0;
+    bottom: 0px;
+    width: 96%;
+    opacity: 0;
+    transition: 0.5s;
+}
+.widget .action-cart button:hover
+{
+    background: black;
+}
+.widget .item-product:hover .action-cart
+{
+    opacity: 1;
+}
+#feature .owl-nav button
+{
+    position: absolute;
+    top: 40%;
+    background: #8BA0D9;
+    border-radius: 50%;
+    width: 57px;
+    height: 57px;
+}
+#feature .owl-nav button span
+{
+    font-size: 30px;
+    color: white;
+}
+#feature button.owl-prev
+{
+    left: -28px;
+}
+#feature button.owl-next
+{
+    right: -28px;
+}
+#wrapper button:focus
+{
+    outline: none;
+    box-shadow: none;
+}
+
+/* END FEATURE  */
+/* CSS TRENDING FASHION  */
+#trending-fashion
+{
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.widget.trending-fashion .wp-product
+{
+    padding:0 5px;
+    margin-bottom: 13px;
+}
+.view-all a
+{
+    color: black;
+    border-bottom:1px solid #d3c9c9;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    padding-top: 22px;
+    display: inline-block;
+
+}
+/* END TRENDING FASHION  */
+/* CSS POST  */
+#trending.widget.post
+{
+    line-height: 26px;
+    padding-top: 20px;
+}
+#trending.widget.post .wp-title
+{
+    padding-bottom: 55px;
+}
+#trending.widget.post .content .title
+{
+    font-size: 20px;
+    padding:20px 0;
+}
+#trending.widget.post .content .title
+{
+    font-size: 16px;
+    font-weight: 300;
+}
+/* END CSS POST  */
+.form-res-email
+{
+    background: url("../images/cover.jpg") center center fixed;
+    line-height: 26px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height:100%;
+    
+}
+
+.form-res-email .title
+{
+    padding-top: 85px;
+    font-size: 36px;
+    font-weight: 700;
+}
+.form-res-email .sub-title
+{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 30px 0 57px 0;
+}
+.form-res-email .form-row
+{
+    padding-bottom:97px;
+}
+.form-res-email .form-row input[type="text"]
+{
+    
+    background: transparent;
+    border-radius: 0;
+    padding: 31px 15px;
+    display: block;
+    border: 3px solid white;
+    color: white;
+}
+.form-res-email .form-row input[type="text"]::placeholder
+{
+    color: white;
+}
+.form-res-email .form-row .btn-res
+{
+    position: absolute;
+    top: 3px;
+    right: 8px;
+    padding: 14px 42px 15px 42px;
+    border-radius: 0;
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+}
+/* END CSS CONTENT  */
+.footer
+{
+    background: #1b1b1b;
+    color: white;
+    padding:75px 0 70px 0;
+}
+
+.footer .widget .title,.fan-page
+{
+    padding-bottom: 40px;
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+}
+.footer .widget.category .title,.footer .widget.best-seller .title
+{
+    padding-top: 24px;
+}
+.footer .widget .list-item li a
+{
+    color: white;
+    line-height: 28px;
+    font-weight: 16px;
+}
+
+.coppy-right
+{
+    padding:10px 0;
+}
+.coppy-right p
+{
+    font-size: 16px;
+}
+#btn-top
+{
+    position: fixed;
+    right: 10px;
+    bottom: 50px;
+    z-index: 99999;
+    display: none;
+    opacity: 1;
+}
+#btn-top:hover
+{
+    background: #4c77eb;
+}
+
+

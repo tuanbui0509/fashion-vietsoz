@@ -1,0 +1,74 @@
+#wp-content {
+    padding: 60px;
+}
+
+.contact-address {
+    background-color: rgb(246, 241, 241);
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contact-address-icon-wrapper {
+    background-color: #c97278;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+}
+
+.contact-address-icon {
+    font-size: 3rem;
+    line-height: 10rem;
+    color: #333;
+}
+
+h3.contact-heading-title {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #c97278;
+}
+
+.contact-text {
+    text-align: center;
+    font-size: 18px;
+}
+
+.form-contact {
+    margin-top: 40px;
+}
+
+.form-main-contact {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(246, 241, 241);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.input-contact {
+    padding: 10px 15px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-contact {
+    background-color: #c97278;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+}

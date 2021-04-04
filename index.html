@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trang chủ</title>
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&display=swap&subset=vietnamese"
+        rel="stylesheet">
+    <!-- SLIDER  -->
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+
+
+    <!-- END SLIDER  -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adjustmentContainer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0"
+        nonce="Qsxnthrn"></script>
+    <div id="wrapper">
+        <div id="header">
+            <div id="wp-menu">
+                <div class="container">
+                    <div class="row position-relative d-flex justify-content-center">
+                        <div class="icon-menu-respon col-sm-2 col-3 d-lg-none d-md-block"><i class="fa fa-bars"
+                                aria-hidden="true"></i></div>
+                        <div class="wp-logo col-lg-2 col-sm-8 col-6 d-flex justify-content-center">
+                            <a href="./index.html" class="logo">
+                                <img src="images/logo.png" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="wp-menu col-lg-9 d-lg-block d-none">
+                            <ul id="main-menu" class="">
+                                <li><a href="./index.html">trang chủ</a></li>
+                                <!-- <li><a href="">về chúng tôi</a></li> -->
+                                <li>
+                                    <a href="./cat-product.html">sản phẩm</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="">Túi xách tay nữ</a></li>
+                                        <li>
+                                            <a href="">Túi đeo chéo nữ</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="">Túi 1</a></li>
+                                                <li><a href="">Túi 2</a></li>
+                                                <li><a href="">Túi 3</a></li>
+                                                <li><a href="">Túi 4</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="">Túi bản to</a></li>
+                                        <li><a href="">Túi đeo vai</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="./cat-post.html">xu hướng</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="">Túi xách tay nữ</a></li>
+                                        <li><a href="">Túi đeo chéo nữ</a></li>
+                                        <li><a href="">Túi bản to</a></li>
+                                        <li><a href="">Túi đeo vai</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="">thanh toán</a></li>
+                                <li><a href="./contact.html">liên hệ</a></li>
+                            </ul>
+                        </div>
+                        <div class="action col-lg-1 col-sm-2 col-3 text-sm-center">
+                            <a href="#" class="btn-search"><i class="fa fa-search" aria-hidden="true"></i></a>
+                            <a href="#" class="btn-cart position-relative">
+                                <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                                <span class="num-order">3</span>
+                            </a>
+                        </div>
+                        <form id="form-search" action="" class="form-group">
+                            <div class="position-relative">
+                                <input class="form-control" type="search" name="search" id="seach"
+                                    placeholder="Tìm kiếm...">
+                                <button class="btn btn-search-main"><i class="fa fa-search"
+                                        aria-hidden="true"></i></button>
+                                <i class="close fa fa-times" aria-hidden="true"></i>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="wp-menu-respon">
+                <div class="container">
+                    <ul id="menu-respon">
+                        <li><a href="./index.html">Trang chủ</a></li>
+                        <li>
+                            <a href="./cat-product.html">Sản phẩm</a>
+                            <ul class="sub-menu">
+                                <li><a href="">Túi xách tay nữ</a></li>
+                                <li>
+                                    <a href="">Túi đeo chéo nữ</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="">Túi 1</a></li>
+                                        <li><a href="">Túi 2</a></li>
+                                        <li><a href="">Túi 3</a></li>
+                                        <li><a href="">Túi 4</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="">Túi bản to</a></li>
+                                <li><a href="">Túi đeo vai</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./cat-post.html">Xu hướng</a>
+                            <ul class="sub-menu">
+                                <li><a href="">Túi xách tay nữ</a></li>
+                                <li><a href="">Túi đeo chéo nữ</a></li>
+                                <li><a href="">Túi bản to</a></li>
+                                <li><a href="">Túi đeo vai</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Thanh toán</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- END HEADER  -->
+        <div id="wp-content">
+            <div id="content">
+                <div id="home-slide" class="carousel slide carousel-fade">
+                    <ol class="carousel-indicators">
+                        <li data-target="#home-slide" class="active" data-slide-to="0"></li>
+                        <li data-target="#home-slide" data-slide-to="1"></li>
+                        <li data-target="#home-slide" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <a href="" class="carousel-item active">
+                            <img src="images/thumb-slider-01.jpg" alt="" class="d-block w-100">
+                        </a>
+                        <a href="" class="carousel-item">
+                            <img src="images/thumb-slider-02.jpg" alt="" class="d-block w-100">
+                        </a>
+                        <a href="" class="carousel-item">
+                            <img src="images/thumb-slider-03.jpg" alt="" class="d-block w-100">
+                        </a>
+                    </div>
+                    <!-- end carousel-inner  -->
+                    <a href="#home-slide" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon"><i class="fa fa-chevron-left"
+                                aria-hidden="true"></i></span>
+                    </a>
+                    <a href="#home-slide" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon"><i class="fa fa-chevron-right"
+                                aria-hidden="true"></i></span>
+                    </a>
+                    <!-- end control next and prev  -->
+                </div>
+                <!-- END HOME SLIDER  -->
+                <div id="wp-intro" class="py-3">
+                    <div class="container py-3">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="item item-1 row mx-0">
+                                    <p class="name col-9 text-center">Free ship nội thành</p>
+                                    <span class="icon col-3 pr-0 text-center"><i class="fa fa-shopping-cart"
+                                            aria-hidden="true"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="item item-2 row mx-0">
+                                    <span class="name col-9 text-center">Thể thành viên</span>
+                                    <span class="icon col-3 pr-0 text-center"><i class="fa fa-gift"
+                                            aria-hidden="true"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="item item-3 row mx-0">
+                                    <span class="name col-9 text-center">Giảm giá 25% cuối tuần</span>
+                                    <span class="icon col-3 pr-0 text-center"><i class="fa fa-paper-plane"
+                                            aria-hidden="true"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END INTRO  -->
+                <div class="widget feature">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 wp-title text-center">
+                                <h3 class="title h3">Sản phẩm nổi bật</h3>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <ul id="feature" class="list-product owl-carousel owl-theme">
+                                <li class="item-product rounded-0 text-center">
+                                    <div class="wp-thumb">
+                                        <a href="./detail-product.html" class="product-thumb">
+                                            <img src="images/thumb-product-01.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <a href="./detail-product.html" class="product-title">T-Shirt For Girl</a>
+                                    <div class="price">
+                                        <span class="new color-primary pr-2">255.000đ</span>
+                                        <del class="old">300.000đ</del>
+                                    </div>
+                                    <p class="rating">
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-star-half-o" aria-hidden="true"></i></span>
+                                    </p>
+                                    <div class="action-cart">
+                                        <button class="btn background-primary rounded-0 text-uppercase text-white">thêm
+                                            giỏ hàng</button>
+                                    </div>
+                                </li>
+                                <li class="item-product rounded-0 text-center">
+                                    <div class="wp-thumb">
+                                        <a href="./detail-product.html" class="product-thumb">
+                                            <img src="images/thumb-product-02.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <a href="./detail-product.html" class="product-title">T-Shirt For Girl</a>
+                                    <div class="price">
+                                        <span class="new color-primary pr-2">255.000đ</span>
+                                        <del class="old">300.000đ</del>
+                                    </div>
+                                    <p class="rating">
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-star-half-o" aria-hidden="true"></i></span>
+                                    </p>
+                                    <div class="action-cart">
+                                        <button class="btn background-primary rounded-0 text-uppercase text-white">thêm
+                                            giỏ hàng</button>
+                                    </div>
+                                </li>
+                                <li class="item-product rounded-0 text-center">
+                                    <div class="wp-thumb">
+                                        <a href="./detail-product.html" class="product-thumb">
+                                            <img src="images/thumb-product-03.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <a href="./detail-product.html" class="product-title">T-Shirt For Girl</a>
+                                    <div class="price">
+                                        <span class="new color-primary pr-2">255.000đ</span>
+                                        <del class="old">300.000đ</del>
+                                    </div>
+                                    <p class="rating">
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-star-half-o" aria-hidden="true"></i></span>
+                                    </p>
+                                    <div class="action-cart">
+                                        <button class="btn background-primary rounded-0 text-uppercase text-white">thêm
+                                            giỏ hàng</button>
+                                    </div>
+                                </li>
+                                <li class="item-product rounded-0 text-center">
+                                    <div class="wp-thumb">
+                                        <a href="./detail-product.html" class="product-thumb">
+                                            <img src="images/thumb-product-04.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <a href="./detail-product.html" class="product-title">T-Shirt For Girl</a>
+                                    <div class="price">
+                                        <span class="new color-primary pr-2">255.000đ</span>
+                                        <del class="old">300.000đ</del>
+                                    </div>
+                                    <p class="rating">
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-star-half-o" aria-hidden="true"></i></span>
+                                    </p>
+                                    <div class="action-cart">
+                                        <button class="btn background-primary rounded-0 text-uppercase text-white">thêm
+                                            giỏ hàng</button>
+                                    </div>
+                                </li>
+                                <li class="item-product rounded-0 text-center">
+                                    <div class="wp-thumb">
+                                        <a href="./detail-product.html" class="product-thumb">
+                                            <img src="images/thumb-product-05.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <a href="./detail-product.html" class="product-title">T-Shirt For Girl</a>
+                                    <div class="price">
+                                        <span class="new color-primary pr-2">255.000đ</span>
+                                        <del class="old">300.000đ</del>
+                                    </div>
+                                    <p class="rating">
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-star-half-o" aria-hidden="true"></i></span>
+                                    </p>
+                                    <div class="action-cart">
+                                        <button class="btn background-primary rounded-0 text-uppercase text-white">thêm
+                                            giỏ hàng</button>
+                                    </div>
+                                </li>
+                                <li class="item-product rounded-0 text-center">
+                                    <div class="wp-thumb">
+                                        <a href="./detail-product.html" class="product-thumb">
+                                            <img src="images/thumb-product-06.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <a href="./detail-product.html" class="product-title">T-Shirt For Girl</a>
+                                    <div class="price">
+                                        <span class="new color-primary pr-2">255.000đ</span>
+                                        <del class="old">300.000đ</del>
+                                    </div>
+                                    <p class="rating">
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-star-half-o" aria-hidden="true"></i></span>
+                                    </p>
+                                    <div class="action-cart">
+                                        <button class="btn background-primary rounded-0 text-uppercase text-white">thêm
+                                            giỏ hàng</button>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- END FEATURE  -->
+                <div class="widget trending-fashion">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 wp-title text-center">
+                                <h3 class="title h3">Thời trang thu đông</h3>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <ul id="trending-fashion" class="row list-product">
+                                <div class="wp-product col-lg-3 col-md-4 col-6">
+                                    <li class="item-product text-center">
+                                        <a href="./detail-product.html" class="product-thumb">
+                                            <img src="images/thumb-product-01.jpg" alt="">
+                                        </a>
+                                        <a href="./detail-product.html" class="product-title">T-Shirt For Girl</a>
+                                        <div class="price">
+                                            <span class="new color-primary pr-2">255.000đ</span>
+                                            <del class="old">300.000đ</del>
+                                        </div>
+                                        <p class="rating">
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star-half-o" aria-hidden="true"></i></span>
+                                        </p>
+                                        <div class="action-cart">
+                                            <button
+                                                class="btn background-primary rounded-0 text-uppercase text-white">thêm
+                                                giỏ hàng</button>
+                                        </div>
+                                    </li>
+                                </div>
+                                <div class="wp-product col-lg-3 col-md-4 col-6">
+                                    <li class="item-product text-center">
+                                        <a href="./detail-product.html" class="product-thumb">
+                                            <img src="images/thumb-product-02.jpg" alt="">
+                                        </a>
+                                        <a href="./detail-product.html" class="product-title">T-Shirt For Girl</a>
+                                        <div class="price">
+                                            <span class="new color-primary pr-2">255.000đ</span>
+                                            <del class="old">300.000đ</del>
+                                        </div>
+                                        <p class="rating">
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star-half-o" aria-hidden="true"></i></span>
+                                        </p>
+                                        <div class="action-cart">
+                                            <button
+                                                class="btn background-primary rounded-0 text-uppercase text-white">thêm
+                                                giỏ hàng</button>
+                                        </div>
+                                    </li>
+                                </div>
+                                <div class="wp-product col-lg-3 col-md-4 col-6">
+                                    <li class="item-product text-center">
+                                        <a href="./detail-product.html" class="product-thumb">
+                                            <img src="images/thumb-product-03.jpg" alt="">
+                                        </a>
+                                        <a href="./detail-product.html" class="product-title">T-Shirt For Girl</a>
+                                        <div class="price">
+                                            <span class="new color-primary pr-2">255.000đ</span>
+                                            <del class="old">300.000đ</del>
+                                        </div>
+                                        <p class="rating">
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star-half-o" aria-hidden="true"></i></span>
+                                        </p>
+                                        <div class="action-cart">
+                                            <button
+                                                class="btn background-primary rounded-0 text-uppercase text-white">thêm
+                                                giỏ hàng</button>
+                                        </div>
+                                    </li>
+                                </div>
+                                <div class="wp-product col-lg-3 col-md-4 col-6">
+                                    <li class="item-product text-center">
+                                        <a href="./detail-product.html" class="product-thumb">
+                                            <img src="images/thumb-product-04.jpg" alt="">
+                                        </a>
+                                        <a href="./detail-product.html" class="product-title">T-Shirt For Girl</a>
+                                        <div class="price">
+                                            <span class="new color-primary pr-2">255.000đ</span>
+                                            <del class="old">300.000đ</del>
+                                        </div>
+                                        <p class="rating">
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star-half-o" aria-hidden="true"></i></span>
+                                        </p>
+                                        <div class="action-cart">
+                                            <button
+                                                class="btn background-primary rounded-0 text-uppercase text-white">thêm
+                                                giỏ hàng</button>
+                                        </div>
+                                    </li>
+                                </div>
+
+
+                                <div class="view-all col-12 text-center text-uppercase">
+                                    <a href="">Xem tất cả</a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- END FASHION  -->
+                <div id="trending" class="widget post">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 wp-title text-center">
+                                <h3 class="title h3">Xu hướng</h3>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <ul class="list-post owl-carousel owl-theme">
+                                <li class="item item-post">
+                                    <a href="" class="thumb-post"><img src="images/thumb-blog-01.jpg" alt=""></a>
+                                    <a href="detail-post.html" class="title font-weight-bold">Phong cách thời trang cơ
+                                        bản mà bạn nên biết?</a>
+                                    <p class="desc">Lorem Ipsum chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc
+                                        trình bày và dàn trang phục vụ cho in ấn. Lorem Ipsum đã được sử dụng như một
+                                        văn bản chuẩn cho ngành công nghiệp in ấn từ những năm 1500...</p>
+                                </li>
+                                <li class="item item-post">
+                                    <a href="" class="thumb-post"><img src="images/thumb-blog-02.jpg" alt=""></a>
+                                    <a href="detail-post.html" class="title font-weight-bold">Phong cách thời trang cơ
+                                        bản mà bạn nên biết?</a>
+                                    <p class="desc">Lorem Ipsum chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc
+                                        trình bày và dàn trang phục vụ cho in ấn. Lorem Ipsum đã được sử dụng như một
+                                        văn bản chuẩn cho ngành công nghiệp in ấn từ những năm 1500...</p>
+                                </li>
+                                <li class="item item-post">
+                                    <a href="" class="thumb-post"><img src="images/thumb-blog-03.jpg" alt=""></a>
+                                    <a href="detail-post.html" class="title font-weight-bold">Phong cách thời trang cơ
+                                        bản mà bạn nên biết?</a>
+                                    <p class="desc">Lorem Ipsum chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc
+                                        trình bày và dàn trang phục vụ cho in ấn. Lorem Ipsum đã được sử dụng như một
+                                        văn bản chuẩn cho ngành công nghiệp in ấn từ những năm 1500...</p>
+                                </li>
+                                <li class="item item-post">
+                                    <a href="" class="thumb-post"><img src="images/thumb-blog-02.jpg" alt=""></a>
+                                    <a href="detail-post.html" class="title font-weight-bold">Phong cách thời trang cơ
+                                        bản mà bạn nên biết?</a>
+                                    <p class="desc">Lorem Ipsum chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc
+                                        trình bày và dàn trang phục vụ cho in ấn. Lorem Ipsum đã được sử dụng như một
+                                        văn bản chuẩn cho ngành công nghiệp in ấn từ những năm 1500...</p>
+                                </li>
+                                <li class="item item-post">
+                                    <a href="" class="thumb-post"><img src="images/thumb-blog-01.jpg" alt=""></a>
+                                    <a href="detail-post.html" class="title font-weight-bold">Phong cách thời trang cơ
+                                        bản mà bạn nên biết?</a>
+                                    <p class="desc">Lorem Ipsum chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc
+                                        trình bày và dàn trang phục vụ cho in ấn. Lorem Ipsum đã được sử dụng như một
+                                        văn bản chuẩn cho ngành công nghiệp in ấn từ những năm 1500...</p>
+                                </li>
+                                <li class="item item-post">
+                                    <a href="" class="thumb-post"><img src="images/thumb-blog-03.jpg" alt=""></a>
+                                    <a href="detail-post.html" class="title font-weight-bold">Phong cách thời trang cơ
+                                        bản mà bạn nên biết?</a>
+                                    <p class="desc">Lorem Ipsum chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc
+                                        trình bày và dàn trang phục vụ cho in ấn. Lorem Ipsum đã được sử dụng như một
+                                        văn bản chuẩn cho ngành công nghiệp in ấn từ những năm 1500...</p>
+                                </li>
+                                <li class="item item-post">
+                                    <a href="" class="thumb-post"><img src="images/thumb-blog-01.jpg" alt=""></a>
+                                    <a href="detail-post.html" class="title font-weight-bold">Phong cách thời trang cơ
+                                        bản mà bạn nên biết?</a>
+                                    <p class="desc">Lorem Ipsum chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc
+                                        trình bày và dàn trang phục vụ cho in ấn. Lorem Ipsum đã được sử dụng như một
+                                        văn bản chuẩn cho ngành công nghiệp in ấn từ những năm 1500...</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- END FASHION  -->
+                <div class="form-res-email">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <h1 class="title h1 text-uppercase text-white">Đăng ký để nhận khuyến mại</h1>
+                                <h5 class="sub-title h5 text-white">Đăng ký để nhận khuyến mại mới nhất</h5>
+                            </div>
+                        </div>
+
+                        <form class="form-row">
+                            <div class="input-group input-group-lg col-md-12 mx-auto">
+                                <input type="text" class="form-control position-relative"
+                                    placeholder="NHẬP ĐỊA CHỈ EMAIL CỦA BẠN">
+                                <button class="btn background-primary text-uppercase btn-res">Đăng ký</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <!-- END CONTENT  -->
+        </div>
+        <!-- END WP-CONTENT  -->
+        <div id="wp-footer">
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="widget about">
+                                <a href="./index.html" class="logo title"><img src="images/white-logo.png" alt=""></a>
+                                <div class="content text-justify">
+                                    <p>Chúng ta vẫn biết rằng, làm việc với một đoạn văn bản dễ đọc và rõ nghĩa dễ gây
+                                        rối trí và cản trở việc tập trung vào yếu tố trình bày văn bản. Lorem Ipsum có
+                                        ưu điểm hơn so với đoạn văn bản chỉ gồm nội dung kiểu "Nội dung, nội dung, nội
+                                        dung" là nó khiến văn bản giống thật hơn, bình </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 d-lg-flex justify-content-lg-center text-md-right">
+                            <div class="widget category">
+                                <h4 class="title text-transform-upercase">Danh mục</h4>
+                                <ul class="list-item">
+                                    <li><a href="">Thời trang thu đông</a></li>
+                                    <li><a href="">Thời trang xuân hạ</a></li>
+                                    <li><a href="">Thời trang thu sang</a></li>
+                                    <li><a href="">Thời trang xuân sang</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 d-lg-flex justify-content-lg-center">
+                            <div class="widget best-seller">
+                                <h4 class="title text-transform-upercase">Bán chạy</h4>
+                                <ul class="list-item w-100 ">
+                                    <li><a href="">Thời trang thu đông</a></li>
+                                    <li><a href="">Thời trang xuân hạ</a></li>
+                                    <li><a href="">Thời trang thu sang</a></li>
+                                    <li><a href="">Thời trang xuân sang</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 text-md-right">
+
+                            <div class="fb-page widget" data-href="https://www.facebook.com/facebook" data-tabs="timeline"
+                                data-width="" data-height="250" data-small-header="false" data-adapt-container-width="true"
+                                data-hide-cover="false" data-show-facepile="true">
+                                <blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a
+                                        href="https://www.facebook.com/facebook">Facebook</a></blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="coppy-right">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <p><i class="fa fa-copyright" aria-hidden="true"></i>2021 All rights reserved Vietsoz</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <button id="btn-top" class="btn background-primary text-white"><i class="fa fa-arrow-up"
+                    aria-hidden="true"></i></button>
+        </div>
+    </div>
+    <!-- END WRAPPER  -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#home-slide').carousel({
+                interval: 4000,
+                ride: "carousel"
+            });
+        });
+    </script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

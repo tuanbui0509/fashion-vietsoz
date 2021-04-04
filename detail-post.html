@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chi tiết bài viết</title>
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&display=swap&subset=vietnamese"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=vietnamese"
+        rel="stylesheet">
+    <!-- SLIDER  -->
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+
+
+    <!-- END SLIDER  -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cat-product.css">
+    <link rel="stylesheet" href="css/cat-post.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v5.0"></script>
+    <div id="wrapper">
+        <div id="header">
+            <div id="wp-menu">
+                <div class="container">
+                    <div class="row position-relative d-flex justify-content-center">
+                        <div class="icon-menu-respon col-sm-2 col-3 d-lg-none d-md-block"><i class="fa fa-bars"
+                                aria-hidden="true"></i></div>
+                        <div class="wp-logo col-lg-2 col-sm-8 col-6 d-flex justify-content-center">
+                            <a href="./index.html" class="logo">
+                                <img src="images/logo.png" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="wp-menu col-lg-9 d-lg-block d-none">
+                            <ul id="main-menu" class="">
+                                <li><a href="./index.html">trang chủ</a></li>
+                                <!-- <li><a href="">về chúng tôi</a></li> -->
+                                <li>
+                                    <a href="cat-product.html">sản phẩm</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="">Túi xách tay nữ</a></li>
+                                        <li>
+                                            <a href="">Túi đeo chéo nữ</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="">Túi 1</a></li>
+                                                <li><a href="">Túi 2</a></li>
+                                                <li><a href="">Túi 3</a></li>
+                                                <li><a href="">Túi 4</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="">Túi bản to</a></li>
+                                        <li><a href="">Túi đeo vai</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="cat-post.html">xu hướng</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="">Túi xách tay nữ</a></li>
+                                        <li><a href="">Túi đeo chéo nữ</a></li>
+                                        <li><a href="">Túi bản to</a></li>
+                                        <li><a href="">Túi đeo vai</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="">thanh toán</a></li>
+                                <li><a href="">liên hệ</a></li>
+                            </ul>
+                        </div>
+                        <div class="action col-lg-1 col-sm-2 col-3 text-sm-center">
+                            <a href="#" class="btn-search"><i class="fa fa-search" aria-hidden="true"></i></a>
+                            <a href="#" class="btn-cart position-relative">
+                                <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                                <span class="num-order">3</span>
+                            </a>
+                        </div>
+                        <form id="form-search" action="" class="form-group">
+                            <div class="position-relative">
+                                <input class="form-control" type="search" name="search" id="seach"
+                                    placeholder="Tìm kiếm...">
+                                <button class="btn btn-search-main"><i class="fa fa-search"
+                                        aria-hidden="true"></i></button>
+                                <i class="close fa fa-times" aria-hidden="true"></i>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="wp-menu-respon">
+                <div class="container">
+                    <ul id="menu-respon">
+                        <li><a href="./index.html">Trang chủ</a></li>
+                        <li>
+                            <a href="cat-product.html">Sản phẩm</a>
+                            <ul class="sub-menu">
+                                <li><a href="">Túi xách tay nữ</a></li>
+                                <li>
+                                    <a href="">Túi đeo chéo nữ</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="">Túi 1</a></li>
+                                        <li><a href="">Túi 2</a></li>
+                                        <li><a href="">Túi 3</a></li>
+                                        <li><a href="">Túi 4</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="">Túi bản to</a></li>
+                                <li><a href="">Túi đeo vai</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="cat-post.html">Xu hướng</a>
+                            <ul class="sub-menu">
+                                <li><a href="">Túi xách tay nữ</a></li>
+                                <li><a href="">Túi đeo chéo nữ</a></li>
+                                <li><a href="">Túi bản to</a></li>
+                                <li><a href="">Túi đeo vai</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Thanh toán</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- END HEADER  -->
+        <div id="my-breadcrubm">
+            <div class="container">
+                <div class="row">
+                    <nav>
+                        <ol class="breadcrumb m-0">
+                            <li class="breadcrumb-item">
+                                <i class="fa fa-home" aria-hidden="true"></i>
+                                <a href="./index.html">Trang chủ</a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="detail-post.html">Xu hướng</a>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="container wp-content">
+            <div class="row">
+                <div id="content" class="col-lg-9 col-md-12 pl-0 content-detail-product">
+                    <div class="widget detail-post container">
+                        <div class="widget-title">
+                            <h1>Cách trang điểm đi đám cưới nhẹ nhàng vẫn đẹp</h1>
+                        </div>
+                        <div class="widget-content text-justify">
+                            <p>Theo thông báo ngày hôm nay (28/1), đối tác chiến lược của Công ty cổ phần Tập đoàn Masan
+                                là Singha Asia Holding Pte Ltd (“Singha”) đã hoàn thành đợt góp vốn đầu tiên trị giá 650
+                                triệu USD vào công ty này.</p>
+                            <div class="thumb-post d-flex justify-content-center py-3">
+                                <img src="images/thumb-detail-post.jpg" alt="">
+                            </div>
+                            <p>Ký kết hợp tác chiến lược từ ngày 25/12/2015 với giao dịch trị giá 1,1 tỷ USD, cho tới
+                                hôm nay, Singha đã chuyển khoản vốn đầu tư đợt đầu với tổng 650 triệu đô la Mỹ, bao gồm
+                                50 triệu đô la Mỹ để sở hữu 33,3% cổ phần Masan Brewery và 600 triệu đô la Mỹ để sở hữu
+                                14,3% cổ phần Masan Consumer Holdings.</p>
+                            <p>Khoản vốn đầu tư 600 triệu đôla Mỹ chuyển vào Masan Consumer Holdings sẽ được sử dụng để
+                                mua thêm cổ phần của Masan Consumer, mảng kinh doanh thực phẩm và đồ uống không cồn của
+                                Masan.</p>
+                            <p>Như vậy, tỷ lệ sở hữu trực tiếp của Masan Consumer Holdings trong công ty Masan Consumer
+                                sẽ tăng từ 77,8% lên 96,7%.</p>
+                            <p>Tập đoàn Masan là một trong những công ty hàng đầu của Việt Nam, công ty con Masan
+                                Consumer Holdings tập trung vào các mặt hàng tiêu dùng với nhiều cơ hội tăng trưởng cao
+                                như là thực phẩm, đồ uống, với những thương hiệu tiêu biểu như Chinsu, Nam Ngư, Omachi,
+                                Vinacafe, Wake-up…</p>
+                            <p>Còn Singha Asia là một công ty thành viên quan trọng của Tập đoàn Boon Rawd Brewery -
+                                hãng bia đầu tiên và lớn nhất của Thái Lan. Hiện nay công ty đang sản xuất các sản phẩm
+                                với nhiều thương hiệu khác nhau như Singha, Leo, B-ing, Purra, Sanvo… thông qua 50 công
+                                ty thành viên.</p>
+                            <p>Đợt góp vốn đầu tiên này là sự xác thực mạnh mẽ cho hợp tác chiến lược giữa Masan và
+                                Singha, tiếp cận gần hơn mục tiêu mở rộng thị trường kinh doanh thực phẩm và đồ uống của
+                                hai công ty lớn này, đặt trọng tâm là các nước “Inland ASEAN” (Việt Nam, Thái Lan,
+                                Myanmar, Campuchia, Lào) với 250 triệu người tiêu dùng.</p>
+                            <p>Đợt góp vốn 450 triệu đôla Mỹ còn lại sẽ gia tăng tỷ lệ sở hữu cổ phần công ty Masan
+                                Consumer Holdings của Singha lên 25% sau khi thực hiện đầy đủ các quy định của pháp
+                                luật.</p>
+                        </div>
+                        <div class="widget-body">
+                            <div class="fb-comments" data-href="#" data-width="100%" data-numposts="5"></div>
+                        </div>
+                        <div class="widget same-post">
+                            <div class="widget-head position-relative">
+                                <h3 class="widget-title">Cùng chuyên mục</h3>
+                            </div>
+                            <div class="widget-content">
+                                <ul id="list-same-post" class="list-item owl-carousel owl-theme">
+                                    <li>
+                                        <a href="" class="thumb-post"><img src="images/thumb-blog-01.jpg" alt=""></a>
+                                        <a href="" class="post-name">Phong cách thời trang cơ bản mà bạn nên biết?</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="thumb-post"><img src="images/thumb-blog-01.jpg" alt=""></a>
+                                        <a href="" class="post-name">Phong cách thời trang cơ bản mà bạn nên biết?</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="thumb-post"><img src="images/thumb-blog-01.jpg" alt=""></a>
+                                        <a href="" class="post-name">Phong cách thời trang cơ bản mà bạn nên biết?</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="thumb-post"><img src="images/thumb-blog-01.jpg" alt=""></a>
+                                        <a href="" class="post-name">Phong cách thời trang cơ bản mà bạn nên biết?</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="thumb-post"><img src="images/thumb-blog-01.jpg" alt=""></a>
+                                        <a href="" class="post-name">Phong cách thời trang cơ bản mà bạn nên biết?</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="thumb-post"><img src="images/thumb-blog-01.jpg" alt=""></a>
+                                        <a href="" class="post-name">Phong cách thời trang cơ bản mà bạn nên biết?</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="thumb-post"><img src="images/thumb-blog-01.jpg" alt=""></a>
+                                        <a href="" class="post-name">Phong cách thời trang cơ bản mà bạn nên biết?</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END CONTENT  -->
+                <div id="sidebar" class="col-md-3 px-0 d-md-none d-lg-block d-none">
+                    <div class="widget category">
+                        <h4 class="widget-title">Danh mục</h4>
+                        <div class="widget-content">
+                            <ul class="list-item">
+                                <li><a href="">Sản phẩm</a></li>
+                                <li><a href="">Cảm nhận sản phẩm</a></li>
+                                <li><a href="">Xu hướng</a></li>
+                                <li><a href="">Thanh toán</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="banner py-3">
+                        <a href=""><img src="images/ads.jpg" alt=""></a>
+                    </div>
+                    <div class="widget best-seller pt-3">
+                        <h4 class="widget-title">Sản phẩm bán chạy</h4>
+                        <div class="widget-content">
+                            <ul class="list-item">
+                                <li class="product-item">
+                                    <div class="container px-0">
+                                        <div class="row">
+                                            <div class="col-4 pr-0 pt-2">
+                                                <a href="" class="product-thumb"><img src="images/thumb-small-01.jpg"
+                                                        alt=""></a>
+                                            </div>
+                                            <div class="col-8">
+                                                <div class="product-info">
+                                                    <a href="" class="product-name">Mascara làm dày và dài mi MAYBELLINE
+                                                        Falsies 9.2ml</a>
+                                                    <div class="product-price">
+                                                        <span class="new pr-2 color-primary">345.000đ</span>
+                                                        <span class="old text-muted">345.000đ</span>
+                                                    </div>
+                                                    <a href="" class="product-detail">Chi tiết</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="product-item">
+                                    <div class="container px-0">
+                                        <div class="row">
+                                            <div class="col-4 pr-0 pt-2">
+                                                <a href="" class="product-thumb"><img src="images/thumb-small-01.jpg"
+                                                        alt=""></a>
+                                            </div>
+                                            <div class="col-8">
+                                                <div class="product-info">
+                                                    <a href="" class="product-name">Mascara làm dày và dài mi MAYBELLINE
+                                                        Falsies 9.2ml</a>
+                                                    <div class="product-price">
+                                                        <span class="new pr-2 color-primary">345.000đ</span>
+                                                        <span class="old text-muted">345.000đ</span>
+                                                    </div>
+                                                    <a href="" class="product-detail">Chi tiết</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="product-item">
+                                    <div class="container px-0">
+                                        <div class="row">
+                                            <div class="col-4 pr-0 pt-2">
+                                                <a href="" class="product-thumb"><img src="images/thumb-small-01.jpg"
+                                                        alt=""></a>
+                                            </div>
+                                            <div class="col-8">
+                                                <div class="product-info">
+                                                    <a href="" class="product-name">Mascara làm dày và dài mi MAYBELLINE
+                                                        Falsies 9.2ml</a>
+                                                    <div class="product-price">
+                                                        <span class="new pr-2 color-primary">345.000đ</span>
+                                                        <span class="old text-muted">345.000đ</span>
+                                                    </div>
+                                                    <a href="" class="product-detail">Chi tiết</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="product-item">
+                                    <div class="container px-0">
+                                        <div class="row">
+                                            <div class="col-4 pr-0 pt-2">
+                                                <a href="" class="product-thumb"><img src="images/thumb-small-01.jpg"
+                                                        alt=""></a>
+                                            </div>
+                                            <div class="col-8">
+                                                <div class="product-info">
+                                                    <a href="" class="product-name">Mascara làm dày và dài mi MAYBELLINE
+                                                        Falsies 9.2ml</a>
+                                                    <div class="product-price">
+                                                        <span class="new pr-2 color-primary">345.000đ</span>
+                                                        <span class="old text-muted">345.000đ</span>
+                                                    </div>
+                                                    <a href="" class="product-detail">Chi tiết</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="product-item">
+                                    <div class="container px-0">
+                                        <div class="row">
+                                            <div class="col-4 pr-0 pt-2">
+                                                <a href="" class="product-thumb"><img src="images/thumb-small-01.jpg"
+                                                        alt=""></a>
+                                            </div>
+                                            <div class="col-8">
+                                                <div class="product-info">
+                                                    <a href="" class="product-name">Mascara làm dày và dài mi MAYBELLINE
+                                                        Falsies 9.2ml</a>
+                                                    <div class="product-price">
+                                                        <span class="new pr-2 color-primary">345.000đ</span>
+                                                        <span class="old text-muted">345.000đ</span>
+                                                    </div>
+                                                    <a href="" class="product-detail">Chi tiết</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SIDEBAR  -->
+            </div>
+            <!-- END ROW  -->
+        </div>
+        <!-- END CONTAINTER  -->
+        <div id="wp-footer">
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="widget about">
+                                <a href="./index.html" class="logo title"><img src="images/white-logo.png" alt=""></a>
+                                <div class="content text-justify">
+                                    <p>Chúng ta vẫn biết rằng, làm việc với một đoạn văn bản dễ đọc và rõ nghĩa dễ gây
+                                        rối trí và cản trở việc tập trung vào yếu tố trình bày văn bản. Lorem Ipsum có
+                                        ưu điểm hơn so với đoạn văn bản chỉ gồm nội dung kiểu "Nội dung, nội dung, nội
+                                        dung" là nó khiến văn bản giống thật hơn, bình </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 d-lg-flex justify-content-lg-center text-md-right">
+                            <div class="widget category">
+                                <h4 class="title text-transform-upercase">Danh mục</h4>
+                                <ul class="list-item">
+                                    <li><a href="">Thời trang thu đông</a></li>
+                                    <li><a href="">Thời trang xuân hạ</a></li>
+                                    <li><a href="">Thời trang thu sang</a></li>
+                                    <li><a href="">Thời trang xuân sang</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 d-lg-flex justify-content-lg-center">
+                            <div class="widget best-seller">
+                                <h4 class="title text-transform-upercase">Bán chạy</h4>
+                                <ul class="list-item w-100 ">
+                                    <li><a href="">Thời trang thu đông</a></li>
+                                    <li><a href="">Thời trang xuân hạ</a></li>
+                                    <li><a href="">Thời trang thu sang</a></li>
+                                    <li><a href="">Thời trang xuân sang</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 text-md-right">
+                            <div class="fb-page widget" data-href="https://www.facebook.com/facebook" data-tabs="timeline"
+                            data-width="" data-height="250" data-small-header="false" data-adapt-container-width="true"
+                            data-hide-cover="false" data-show-facepile="true">
+                            <blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a
+                                    href="https://www.facebook.com/facebook">Facebook</a></blockquote>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="coppy-right">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <p><i class="fa fa-copyright" aria-hidden="true"></i>2021 All rights reserved Vietsoz</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <button id="btn-top" class="btn background-primary text-white"><i class="fa fa-arrow-up"
+                    aria-hidden="true"></i></button>
+        </div>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#home-slide').carousel({
+                interval: 4000,
+                ride: "carousel"
+            });
+        });
+    </script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
